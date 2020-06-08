@@ -12,8 +12,13 @@ github_event_script.prototype = {
     initialize: function() {},
 
     createEvent: function() {
-        gs.info('CreateEvent - Start');
+        gs.info('github_event_script.createEvent() - Start');
     },
+	
+	gatherInfo: function(){
+		gs.info('github_event_script.gatherInfo() - Start');
+		return 'Test data';
+	},
 
     type: 'github_event_script'
 };]]></script>
@@ -21,13 +26,13 @@ github_event_script.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-08 07:11:40</sys_created_on>
         <sys_id>e4e8ffc91b159010abe5dc6cdc4bcbae</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>github_event_script</sys_name>
         <sys_package display_value="event-tracker" source="x_63469_event_trac">ab047f091b159010abe5dc6cdc4bcb9d</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="event-tracker">ab047f091b159010abe5dc6cdc4bcb9d</sys_scope>
         <sys_update_name>sys_script_include_e4e8ffc91b159010abe5dc6cdc4bcbae</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-08 07:11:40</sys_updated_on>
+        <sys_updated_on>2020-06-08 07:16:10</sys_updated_on>
     </sys_script_include>
 </record_update>
